@@ -4,6 +4,7 @@ import { RegistrationModule } from "./registration/registration.module";
 import { NewsModule } from "./news/news.module";
 import { EventModule } from "./event/event.module";
 import { UserModule } from "./user/user.module";
+import { DashboardModule } from "./Dashboard/dashboard.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -26,6 +27,7 @@ import { AuthModule } from "./auth/auth.module";
     NewsModule,
     EventModule,
     UserModule,
+    DashboardModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
